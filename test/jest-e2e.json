@@ -1,0 +1,46 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/allergies": "<rootDir>/../libs/allergies/src",
+    "@app/allergies/(.*)": "<rootDir>/../libs/allergies/src/$1",
+    "@app/health-condition": "<rootDir>/../libs/health-condition/src",
+    "@app/health-condition/(.*)": "<rootDir>/../libs/health-condition/src/$1",
+    "@app/health-goal": "<rootDir>/../libs/health-goal/src",
+    "@app/health-goal/(.*)": "<rootDir>/../libs/health-goal/src/$1",
+    "@app/medication": "<rootDir>/../libs/medication/src",
+    "@app/medication/(.*)": "<rootDir>/../libs/medication/src/$1",
+    "@auth/auth": "<rootDir>/../libs/auth/src",
+    "@auth/auth/(.*)": "<rootDir>/../libs/auth/src/$1",
+    "@blog/blog": "<rootDir>/../libs/blog/src",
+    "@blog/blog/(.*)": "<rootDir>/../libs/blog/src/$1",
+    "@database/database": "<rootDir>/../libs/database/src",
+    "@database/database/(.*)": "<rootDir>/../libs/database/src/$1",
+    "@doctor/doctor": "<rootDir>/../libs/doctor/src",
+    "@doctor/doctor/(.*)": "<rootDir>/../libs/doctor/src/$1",
+    "@faq/faq": "<rootDir>/../libs/faq/src",
+    "@faq/faq/(.*)": "<rootDir>/../libs/faq/src/$1",
+    "@healthheabit/health-habit": "<rootDir>/../libs/health-habit/src",
+    "@healthheabit/health-habit/(.*)": "<rootDir>/../libs/health-habit/src/$1",
+    "@medicine/medicine": "<rootDir>/../libs/medicine/src",
+    "@medicine/medicine/(.*)": "<rootDir>/../libs/medicine/src/$1",
+    "@notification/notification": "<rootDir>/../libs/notification/src",
+    "@notification/notification/(.*)": "<rootDir>/../libs/notification/src/$1",
+    "@tests/test": "<rootDir>/../libs/test/src",
+    "@tests/test/(.*)": "<rootDir>/../libs/test/src/$1",
+    "@user-healt-habit-data/user-healt-habit-data": "<rootDir>/../libs/user-healt-habit-data/src",
+    "@user-healt-habit-data/user-healt-habit-data/(.*)": "<rootDir>/../libs/user-healt-habit-data/src/$1",
+    "@user/user": "<rootDir>/../libs/user/src",
+    "@user/user/(.*)": "<rootDir>/../libs/user/src/$1",
+    "^@app/seeder(|/.*)$": "<rootDir>/../libs/seeder/src/$1"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2023",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/allergies": [
+        "./libs/allergies/src"
+      ],
+      "@app/allergies/*": [
+        "./libs/allergies/src/*"
+      ],
+      "@app/health-condition": [
+        "./libs/health-condition/src"
+      ],
+      "@app/health-condition/*": [
+        "./libs/health-condition/src/*"
+      ],
+      "@app/health-goal": [
+        "./libs/health-goal/src"
+      ],
+      "@app/health-goal/*": [
+        "./libs/health-goal/src/*"
+      ],
+      "@app/medication": [
+        "./libs/medication/src"
+      ],
+      "@app/medication/*": [
+        "./libs/medication/src/*"
+      ],
+      "@app/mail": [
+        "./libs/mail/src"
+      ],
+      "@app/mail/*": [
+        "./libs/mail/src/*"
+      ],
+      "@app/seeder": [
+        "libs/seeder/src"
+      ],
+      "@app/seeder/*": [
+        "libs/seeder/src/*"
+      ],
+      "@auth/auth": [
+        "./libs/auth/src"
+      ],
+      "@auth/auth/*": [
+        "./libs/auth/src/*"
+      ],
+      "@blog/blog": [
+        "./libs/blog/src"
+      ],
+      "@blog/blog/*": [
+        "./libs/blog/src/*"
+      ],
+      "@database/database": [
+        "./libs/database/src"
+      ],
+      "@database/database/*": [
+        "./libs/database/src/*"
+      ],
+      "@doctor/doctor": [
+        "./libs/doctor/src"
+      ],
+      "@doctor/doctor/*": [
+        "./libs/doctor/src/*"
+      ],
+      "@faq/faq": [
+        "./libs/faq/src"
+      ],
+      "@faq/faq/*": [
+        "./libs/faq/src/*"
+      ],
+      "@healthheabit/health-habit": [
+        "./libs/health-habit/src"
+      ],
+      "@healthheabit/health-habit/*": [
+        "./libs/health-habit/src/*"
+      ],
+      "@medicine/medicine": [
+        "./libs/medicine/src"
+      ],
+      "@medicine/medicine/*": [
+        "./libs/medicine/src/*"
+      ],
+      "@notification/notification": [
+        "./libs/notification/src"
+      ],
+      "@notification/notification/*": [
+        "./libs/notification/src/*"
+      ],
+      "@tests/test": [
+        "./libs/test/src"
+      ],
+      "@tests/test/*": [
+        "./libs/test/src/*"
+      ],
+      "@user-healt-habit-data/user-healt-habit-data": [
+        "./libs/user-healt-habit-data/src"
+      ],
+      "@user-healt-habit-data/user-healt-habit-data/*": [
+        "./libs/user-healt-habit-data/src/*"
+      ],
+      "@user-healt-habit/user-healt-habit": [
+        "./libs/user-healt-habit/src"
+      ],
+      "@user-healt-habit/user-healt-habit/*": [
+        "./libs/user-healt-habit/src/*"
+      ],
+      "@user/user": [
+        "./libs/user/src"
+      ],
+      "@user/user/*": [
+        "./libs/user/src/*"
+      ]
+    },
+    "baseUrl": "./"
+  }
+}
